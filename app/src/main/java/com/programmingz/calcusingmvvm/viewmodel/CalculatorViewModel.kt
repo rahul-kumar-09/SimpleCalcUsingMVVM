@@ -9,4 +9,20 @@ class CalculatorViewModel: ViewModel() {
         val sum = num1 + num2
         return CalculatorData(num1, num2, sum)
     }
+    fun calculateSub(num1: Int, num2: Int) : CalculatorData{
+
+        val sum = num1 - num2
+        return CalculatorData(num1, num2, sum)
+    }
+    fun calculateMul(num1: Int, num2: Int) : CalculatorData{
+
+        val sum = num1 * num2
+        return CalculatorData(num1, num2, sum)
+    }
+    fun calculateDiv(num1: Int, num2: Int) : CalculatorData{
+
+        val sum = num1 / num2
+        return CalculatorData(num1, num2, sum)
+    }
+
 }
